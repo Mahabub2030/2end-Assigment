@@ -1,0 +1,260 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #FFF8F4;
+    font-family: 'poppins', sans-serif;
+    height: 350vh;
+}
+
+.contenar{
+
+    width: 100%;
+    height: 100vh;
+    /* background:#f05d08 ; */
+    border-radius: 2rem;
+    border: 20px;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    background-position: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 100%;
+    height: 10vh;
+    background: #e4deda;
+    display: flex;
+    align-items: center;
+    clip-path: polygon(0 0,100% 0,64% 100%,0% 100%);
+    padding-left: 10px;
+    line-height: 1.3rem;
+}
+.logo h2{
+    font-size: 2rem;
+    font-weight: 800;
+    
+}
+.game{
+    color: red;
+}
+ .navbar{
+    display: flex;
+    padding-right:10%;
+    list-style: none;
+
+}
+.navbar li {
+    width: 120px;
+    
+}
+.navbar li a{
+    text-decoration: none;
+    
+}
+
+/* banner style stars here  */
+.title1{
+    width: 80%;
+    margin:15px 0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    color: #272727;
+    font-size: 5rem;
+
+
+
+
+}
+.title2{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+    font-style: unset;
+    color: rgb(0, 255, 51);
+    font-size: 2rem;
+    font-size: 5rem;
+    
+}
+.banner{
+    margin:100px;
+}
+
+.banner-disricption{
+    width: 20%;
+    font-size:1rem;
+    align-items: center;
+    width: 39.625rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem; /* 166.667% */
+    margin-top: 1rem;
+    margin-right: 2px;
+
+}
+.btn{
+    background: rgb(247, 8, 131);
+    border-radius: 1rem;
+    font-size:1.8rem;
+    margin: 20px auto;
+    padding:1%;
+    text-align: center;
+    font-weight: 600;
+}
+.btn:hover{
+    background: rgb(116, 8, 247);
+}
+.btn1{
+    background: rgb(8, 247, 84);
+    border-radius: 1rem;
+    font-size:1.8rem;
+    margin: 20px auto;
+    padding:1%;
+    text-align: center;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn1:hover{
+    background:seagreen;
+}
+
+.contenar .banner-img img{
+    margin-left:65%;
+}
+
+.gammer-title{
+    margin-left: 60%;
+}
+.banner-img{
+margin-right: 50px;
+
+}
+
+/* banner style ends here  */
+
+
+/* we are gamer section stars here  */
+
+.gamemar-contener img{
+    margin-right: 65%;
+    
+}
+
+
+
+.gammer-h3{
+    font-size: 2rem;
+    margin: 20px;
+    align-items: center;
+}
+/* we are gamer section ends here  */
+
+
+/* onlie game style stars here  */
+
+ .opsonal-contenar{
+    font-size: 1.5rem;
+    margin-top: 30px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+ }
+ .psonal-contenar p{
+    margin-top: 50px;
+ }
+
+
+
+
+/* onlie game style ends here  */
+
+
+
+/* opsonal section stars here  */
+.opsonal-img{
+    display: flex;
+}
+
+/* opsonal section ends here  */
+
+
+
+/* careers stars here  */
+.carees{
+    margin: 30px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    justify-content: space-between;
+    width: 120rem;
+    height: 51.3125rem;
+
+}
+
+.carees-upeer{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem; /* 166.667% */
+}
+
+.carees-title{
+    
+}
+
+.carees-upeer{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 2.5rem; 
+}
+.carees-title{
+    color: #FFF;
+    align-items: center;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+}
+.carees h2{
+    margin: 30px;
+    text-align: center;
+}
+.carees-title img{
+    margin-left: 35%;
+}
+.btn2{
+    display: inline-flex;
+    padding: 1.3125rem 2.5rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border-radius: 3rem;
+    background: #FFF;
+}
+/* careers ends here  */
+.imgs-smollar .imgs .banner-disricption{
+    display: flex;
+    justify-content: space-around;
+
+}
+.imgs-smollar .img .banner-disricption{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.imgs-smollar.img p{
+    text-align: center;
+}
