@@ -210,9 +210,7 @@ margin-right: 50px;
     line-height: 1.875rem; /* 166.667% */
 }
 
-.carees-title{
-    
-}
+
 
 .carees-upeer{
     color: #FFF;
@@ -234,6 +232,7 @@ margin-right: 50px;
 }
 .carees-title img{
     margin-left: 35%;
+    position: relative;
 }
 .btn2{
     display: inline-flex;
@@ -258,3 +257,89 @@ margin-right: 50px;
 .imgs-smollar.img p{
     text-align: center;
 }
+
+
+.img{
+
+    width: 3.75rem;
+    height: 3.75rem;
+    flex-shrink: 0;
+    border-radius: 3.125rem;
+ 
+}
+.img p{
+   flex-wrap: wrap;
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0 0 0 5rem;
+
+}
+.imgs-smollar .img{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width: 15.1875rem;
+    height: 5rem;
+    flex-shrink: 0;
+}
+
+
+/* footer section stars here  */
+
+footer {
+    background: #0B0223;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:50vh;
+    padding: 2rem 2rem 2rem 2rem;
+}
+footer .icon{
+    width:30%;
+    height:40%;
+    flex-shrink: 0;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+.icon h2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+footer > ul  a{
+    text-decoration: none;
+    margin: 2rem;
+    gap: 10rem;
+   justify-content: center;
+   text-align: center;
+   color:#FFF;
+}
+.icon-tittle{
+    display: flex;
+    gap:2rem;
+    margin-top: 50px;
+    align-items: center;
+    
+    
+}
+.lower a{
+    text-decoration: none;
+    gap: 2rem;
+    color:#fff;
+    
+}
+.lower {
+    margin-top: 50px;
+    gap: 2rem;
+}
+/* footer section ends here  */
+
